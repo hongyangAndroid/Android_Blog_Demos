@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Performance_01_render</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="header_text">Chatum Latinum</string>
+<string name="line1_text">
+        Line 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </string>
+
+    <string name="line2_text">
+        Line 2: Excepteur sint occaecat cupidatat non proident
+    </string>
+
+    <string name="title_activity_overdraw01">Remove Unnecessary BackGround</string>
+    <string name="title_activity_compare_layout">CompareLayoutActivity</string>
+</resources>
