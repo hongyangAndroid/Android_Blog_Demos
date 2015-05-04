@@ -91,7 +91,7 @@ public class GenerateValueFiles {
 		sbForWidth.append("<resources>");
 		float cellw = w * 1.0f / baseW;
 
-		System.out.println(w + "," + baseW + "," + cellw);
+		System.out.println("width : " + w + "," + baseW + "," + cellw);
 		for (int i = 1; i < baseW; i++) {
 			sbForWidth.append(WTemplate.replace("{0}", i + "").replace("{1}",
 					change(cellw * i) + ""));
@@ -103,7 +103,8 @@ public class GenerateValueFiles {
 		StringBuffer sbForHeight = new StringBuffer();
 		sbForHeight.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
 		sbForHeight.append("<resources>");
-		float cellh = h / baseH;
+		float cellh = h *1.0f/ baseH;
+		System.out.println("height : "+ h + "," + baseH + "," + cellh);
 		for (int i = 1; i < baseH; i++) {
 			sbForHeight.append(HTemplate.replace("{0}", i + "").replace("{1}",
 					change(cellh * i) + ""));
