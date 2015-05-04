@@ -28,6 +28,11 @@ public class GenerateValueFiles {
 	public GenerateValueFiles(int baseX, int baseY, String supportStr) {
 		this.baseW = baseX;
 		this.baseH = baseY;
+
+		if (!this.supportStr.contains(baseX + "," + baseY)) {
+			this.supportStr += baseX + "," + baseY + ";";
+		}
+
 		this.supportStr += validateInput(supportStr);
 
 		System.out.println(supportStr);
@@ -54,13 +59,13 @@ public class GenerateValueFiles {
 		String[] wh;
 		for (String val : vals) {
 			try {
-				if (val == null || val.length() == 0)
+				if (val == null || val.trim().length() == 0)
 					continue;
 
 				wh = val.split(",");
 				w = Integer.parseInt(wh[0]);
 				h = Integer.parseInt(wh[1]);
-			} catch (NumberFormatException e) {
+			} catch (Exception e) {
 				System.out.println("skip invalidate params : w,h = " + val);
 				continue;
 			}
