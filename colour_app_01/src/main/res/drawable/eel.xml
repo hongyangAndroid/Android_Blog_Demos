@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/eel_mask1"/>
+    <item
+        android:drawable="@drawable/eel_mask2"/>
+    <item
+        android:drawable="@drawable/eel_mask3"/>
+    <item
+        android:drawable="@drawable/eel_mask4"/>
+    <item
+        android:drawable="@drawable/eel_mask5"/>
+    <item
+        android:drawable="@drawable/eel_mask6"/>
+    <item
+        android:drawable="@drawable/eel_mask7"/>
+</layer-list>
