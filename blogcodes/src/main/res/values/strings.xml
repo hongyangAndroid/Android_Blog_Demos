@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestAndroid</string>
+
+    <string name="hello_world">Hello world!Hello world!Hello world!Hello world!Hello world!Hello world!Hello world!Hello world!Hello world!Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_base_content">BaseContentActivity</string>
+
+    <string name="title_activity_navigation_view">NavigationViewActivity</string>
+    <string name="title_activity_nav_list_view">NavListViewActivity</string>
+
+
+</resources>
