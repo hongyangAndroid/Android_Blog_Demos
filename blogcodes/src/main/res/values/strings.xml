@@ -8,6 +8,7 @@
 
     <string name="title_activity_navigation_view">NavigationViewActivity</string>
     <string name="title_activity_nav_list_view">NavListViewActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
 
 
 </resources>
