@@ -2,6 +2,12 @@
 
 source code in blog ~
 
+
+### 导入方式
+
+下载到本地以后，直接在Android Studio中选择import module，选择blogcodes（注意选择这个文件夹）即可。
+
+
 ###[2015-06-07更新]
 
 以后所有的blog代码将以列表的形式添加到blogcodes这个module中。
