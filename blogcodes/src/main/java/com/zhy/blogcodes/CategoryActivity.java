@@ -11,7 +11,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.zhy.blogcodes.dl.DLCategoryActivity;
 import com.zhy.blogcodes.mvp.UserLoginActivity;
+import com.zhy.blogcodes.nav.NavListViewActivity;
+import com.zhy.blogcodes.nav.NavigationViewActivity;
+import com.zhy.blogcodes.vdh.VDHBlogActivity;
 
 
 public class CategoryActivity extends ActionBarActivity
@@ -26,6 +30,8 @@ public class CategoryActivity extends ActionBarActivity
                     NavigationViewActivity.class,
                     NavListViewActivity.class,
                     UserLoginActivity.class,
+                    VDHBlogActivity.class,
+                    //DLCategoryActivity.class,
 
             };
 
