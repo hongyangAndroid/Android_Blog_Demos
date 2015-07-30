@@ -11,11 +11,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.zhy.blogcodes.colour_app_01.ColourImageActivity;
 import com.zhy.blogcodes.intentservice.HandlerThreadActivity;
 import com.zhy.blogcodes.intentservice.IntentServiceActivity;
 import com.zhy.blogcodes.mvp.UserLoginActivity;
 import com.zhy.blogcodes.nav.NavListViewActivity;
 import com.zhy.blogcodes.nav.NavigationViewActivity;
+import com.zhy.blogcodes.performance_01.PerformanceMainActivity;
+import com.zhy.blogcodes.toolbar.ToolBarMainActivity;
 import com.zhy.blogcodes.vdh.VDHBlogActivity;
 
 
@@ -35,6 +38,9 @@ public class CategoryActivity extends ActionBarActivity
                     //DLCategoryActivity.class,
                     HandlerThreadActivity.class,
                     IntentServiceActivity.class,
+                    ColourImageActivity.class,
+                    PerformanceMainActivity.class,
+                    ToolBarMainActivity.class,
 
             };
 
