@@ -11,6 +11,8 @@
     <string name="title_activity_user_login">UserLoginActivity</string>
     <string name="title_activity_dlactivity01">DLActivity01</string>
     <string name="title_activity_dlbase">DLBaseActivity</string>
+    <string name="title_activity_thread_handler">ThreadHandlerActivity</string>
+    <string name="title_activity_intent_service">IntentServiceActivity</string>
 
 
 </resources>
