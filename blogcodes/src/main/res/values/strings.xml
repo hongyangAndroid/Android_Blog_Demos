@@ -38,4 +38,6 @@
         <item>我的乐库</item>
         <item>播放列表</item>
     </string-array>
+    <string name="title_activity_main_test">MainTestActivity</string>
+    <string name="title_activity_jni01">Jni01Activity</string>
 </resources>

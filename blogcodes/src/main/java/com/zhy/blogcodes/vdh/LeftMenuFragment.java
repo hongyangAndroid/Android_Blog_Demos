@@ -1,4 +1,4 @@
-package com.zhy.blogcodes.toolbar;
+package com.zhy.blogcodes.vdh;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -20,6 +20,7 @@ public class LeftMenuFragment extends ListFragment {
     private MenuItem[] mItems = new MenuItem[SIZE_MENU_ITEM];
 
     private LeftMenuAdapter mAdapter;
+
 
     private LayoutInflater mInflater;
 
@@ -44,7 +45,6 @@ public class LeftMenuFragment extends ListFragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         view.setBackgroundColor(0xffffffff);
         setListAdapter(mAdapter = new LeftMenuAdapter(getActivity(), mItems));
 
@@ -57,9 +57,7 @@ public class LeftMenuFragment extends ListFragment {
         if (mMenuItemSelectedListener != null) {
             mMenuItemSelectedListener.menuItemSelected(((MenuItem) getListAdapter().getItem(position)).text);
         }
-
         mAdapter.setSelected(position);
-
     }
 
 
