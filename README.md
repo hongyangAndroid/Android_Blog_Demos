@@ -9,6 +9,9 @@
 
 ## 包含内容
 
+###[ViewDragHelper实战 自己打造Drawerlayout](http://blog.csdn.net/lmj623565791/article/details/47396187)
+
+<img src="http://img.blog.csdn.net/20150810112230816" width="320px"/>
 
 ###[ Android UI性能优化实战 识别绘制中的性能问题](http://blog.csdn.net/lmj623565791/article/details/45556391)
 
