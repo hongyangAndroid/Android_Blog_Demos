@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Version 1. Uses nested LinearLayouts -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/chat_author_avatar1"
+            android:layout_width="@dimen/avatar_dimen"
+            android:layout_height="@dimen/avatar_dimen"
+            android:layout_margin="@dimen/avatar_layout_margin"
+            android:src="@drawable/joanna"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/line1_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/line2_text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Version 2: uses a single RelativeLayout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/chat_author_avatar2"
+            android:layout_width="@dimen/avatar_dimen"
+            android:layout_height="@dimen/avatar_dimen"
+            android:layout_margin="@dimen/avatar_layout_margin"
+            android:src="@drawable/joanna"/>
+
+
+        <TextView
+            android:id="@+id/rl_line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/chat_author_avatar2"
+            android:text="@string/line1_text" />
+
+        <TextView
+            android:id="@+id/rl_line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_line1"
+            android:layout_toRightOf="@id/chat_author_avatar2"
+            android:text="@string/line2_text" />
+    </RelativeLayout>
+</LinearLayout>

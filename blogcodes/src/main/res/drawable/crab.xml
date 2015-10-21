@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/crab_mask1"/>
+    <item
+        android:drawable="@drawable/crab_mask2"/>
+    <item
+        android:drawable="@drawable/crab_mask3"/>
+    <item
+        android:drawable="@drawable/crab_mask4"/>
+    <item
+        android:drawable="@drawable/crab_mask5"/>
+    <item
+        android:drawable="@drawable/crab_mask6"/>
+    <item
+        android:drawable="@drawable/crab_mask7"/>
+    <item
+        android:drawable="@drawable/crab_mask8"/>
+
+    <item
+        android:drawable="@drawable/crab_mask9"/>
+
+
+</layer-list>
