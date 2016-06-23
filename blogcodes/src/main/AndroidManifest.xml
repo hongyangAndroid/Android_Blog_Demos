@@ -1,92 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhy.blogcodes" >
+<manifest package="com.zhy.blogcodes"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".CategoryActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".nav.NavigationViewActivity"
             android:label="@string/title_activity_category"
-            android:theme="@style/Theme.DesignDemo" >
+            android:theme="@style/Theme.DesignDemo">
         </activity>
         <activity
             android:name=".nav.NavListViewActivity"
             android:label="@string/title_activity_base_content"
-            android:theme="@style/Theme.DesignDemo" >
+            android:theme="@style/Theme.DesignDemo">
         </activity>
-        <activity android:name=".vdh.VDHBlogActivity" />
+        <activity android:name=".vdh.VDHBlogActivity"/>
         <activity
             android:name=".mvp.UserLoginActivity"
-            android:label="@string/title_activity_user_login" >
+            android:label="@string/title_activity_user_login">
         </activity>
         <activity
             android:name=".dl.DLCategoryActivity"
-            android:label="@string/title_activity_dlactivity01" >
+            android:label="@string/title_activity_dlactivity01">
         </activity>
         <activity
             android:name=".dl.DLActivity01"
-            android:label="@string/title_activity_dlactivity01" >
+            android:label="@string/title_activity_dlactivity01">
         </activity>
         <activity
             android:name=".dl.DLProxyActivity"
             android:label="@string/title_activity_dlbase"
-            android:theme="@android:style/Theme.Light" >
+            android:theme="@android:style/Theme.Light">
         </activity>
         <activity
             android:name=".intentservice.HandlerThreadActivity"
-            android:label="@string/title_activity_thread_handler" >
+            android:label="@string/title_activity_thread_handler">
         </activity>
 
         <service
             android:name=".intentservice.UploadImgService"
-            android:exported="false" >
+            android:exported="false">
         </service>
 
         <activity
             android:name=".intentservice.IntentServiceActivity"
-            android:label="@string/title_activity_intent_service" >
+            android:label="@string/title_activity_intent_service">
         </activity>
         <activity
             android:name=".colour_app_01.ColourImageActivity"
-            android:label="@string/title_activity_colour_image" >
+            android:label="@string/title_activity_colour_image">
         </activity>
-        <activity android:name=".performance_01.PerformanceMainActivity" >
+        <activity android:name=".performance_01.PerformanceMainActivity">
         </activity>
-        <activity android:name=".performance_01.OverDrawActivity01" />
-        <activity android:name=".performance_01.OverDrawActivity02" />
-        <activity android:name=".performance_01.CompareLayoutActivity" />
+        <activity android:name=".performance_01.OverDrawActivity01"/>
+        <activity android:name=".performance_01.OverDrawActivity02"/>
+        <activity android:name=".performance_01.CompareLayoutActivity"/>
         <activity
             android:name=".toolbar.ToolBarMainActivity"
-            android:theme="@style/NoActionBarTheme" />
+            android:theme="@style/NoActionBarTheme"/>
         <activity
             android:name=".test.MainTestActivity"
-            android:label="@string/title_activity_main_test" >
+            android:label="@string/title_activity_main_test">
         </activity>
         <activity
             android:name=".jni.Jni01Activity"
-            android:label="@string/title_activity_jni01" >
+            android:label="@string/title_activity_jni01">
         </activity>
-        <activity android:name=".vdh.LeftDrawerLayoutActivity"></activity>
+        <activity android:name=".vdh.LeftDrawerLayoutActivity"/>
         <activity
-            android:name=".largeImage.LargeImageViewActivity"
-            android:label="LargeImageViewActivity" >
-        </activity>
 
+            android:name=".largeImage.LargeImageViewActivity"
+            android:label="LargeImageViewActivity">
+        </activity>
+        <activity
+            android:theme="@style/NoActionBarTheme"
+            android:name=".parallax_viewpager.ParallaxVpTestActivity">
+        </activity>
     </application>
 
 </manifest>

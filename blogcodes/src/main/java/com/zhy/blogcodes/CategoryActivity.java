@@ -19,6 +19,7 @@ import com.zhy.blogcodes.largeImage.LargeImageViewActivity;
 import com.zhy.blogcodes.mvp.UserLoginActivity;
 import com.zhy.blogcodes.nav.NavListViewActivity;
 import com.zhy.blogcodes.nav.NavigationViewActivity;
+import com.zhy.blogcodes.parallax_viewpager.ParallaxVpTestActivity;
 import com.zhy.blogcodes.performance_01.PerformanceMainActivity;
 import com.zhy.blogcodes.toolbar.ToolBarMainActivity;
 import com.zhy.blogcodes.vdh.LeftDrawerLayoutActivity;
@@ -47,7 +48,8 @@ public class CategoryActivity extends ActionBarActivity
                     //MainTestActivity.class,
                     Jni01Activity.class,
                     LeftDrawerLayoutActivity.class,
-                    LargeImageViewActivity.class
+                    LargeImageViewActivity.class,
+                    ParallaxVpTestActivity.class
 
             };
 

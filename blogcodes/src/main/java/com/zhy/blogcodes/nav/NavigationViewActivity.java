@@ -53,10 +53,10 @@ public class NavigationViewActivity extends ActionBarActivity
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem)
                     {
-                        if (mPreMenuItem != null) mPreMenuItem.setChecked(false);
+//                        if (mPreMenuItem != null) mPreMenuItem.setChecked(false);
                         menuItem.setChecked(true);
-                        mDrawerLayout.closeDrawers();
-                        mPreMenuItem = menuItem;
+//                        mDrawerLayout.closeDrawers();
+//                        mPreMenuItem = menuItem;
                         return true;
                     }
                 });

@@ -20,7 +20,8 @@
     <string name="title_activity_compare_layout">CompareLayoutActivity</string>
     <string name="header_text">Chatum Latinum</string>
     <string name="line1_text">
-        Line 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Line 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
     </string>
 
     <string name="line2_text">
